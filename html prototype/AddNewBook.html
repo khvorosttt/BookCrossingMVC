@@ -1,0 +1,40 @@
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Новая книга</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="LogIn.html">
+              Авторизация</a></li>
+          <li><a href="MyProfile.html">Мой профиль</a></li>
+          <li><a href="Library.html">Библиотека</a></li>
+          <li><a href="FindBook.html">Поиск книги</a></li>
+          <li><a href="OrderBoard.html">Доска заказов</a></li>
+          <li><a href="SignIn.html">Выход</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <form action="Library.html" method="POST">
+      <div class="divAll">
+        <label>Автор</label>
+        <input type="text" name="author">
+        <label>Название</label>
+        <input type="text" name="name">
+        <label>Адрес</label>
+        <input type="text" name="address">
+        <label>Доступ</label>
+        <input type="number" name="access">
+        </div>
+        <input type="submit" value="Добавить новую книгу">
+      </form>
+    </section>
+  </body>
+
+</html>
