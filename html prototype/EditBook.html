@@ -1,0 +1,43 @@
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Редактировать книгу </title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="LogIn.html">
+              Авторизация</a></li>
+          <li><a href="MyProfile.html">Мой профиль</a></li>
+          <li><a href="Library.html">Библиотека</a></li>
+          <li><a href="FindBook.html">Поиск книги</a></li>
+          <li><a href="OrderBoard.html">Доска заказов</a></li>
+          <li><a href="SignIn.html">Выход</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h1>Редактировать книгу</h1>
+      <form action="MyProfile.html" method="POST">
+        <div class="divAll">
+          <label>Автор</label>
+          <input type="text" name="author" placeholder="Автор">
+          <label>Название</label>
+          <input type="text" name="name" placeholder="Название">
+          <label>Адрес</label>
+          <input type="text" name="address" placeholder="Адрес">
+          <label>Доступ</label>
+          <input type="number" name="access" placeholder="0">
+          <label>Статус</label>
+          <input type="number" name="status" placeholder="1">
+          <button class="send" type="submit">Сохранить</button>
+        </div>
+      </form>
+    </section>
+  </body>
+
+</html>
