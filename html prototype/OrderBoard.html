@@ -1,0 +1,47 @@
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Доска заказов</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="LogIn.html">
+              Авторизация</a></li>
+          <li><a href="MyProfile.html">Мой профиль</a></li>
+          <li><a href="Library.html">Библиотека</a></li>
+          <li><a href="FindBook.html">Поиск книги</a></li>
+          <li><a href="OrderBoard.html" class="CurrentPage">Доска заказов</a></li>
+          <li><a href="SignIn.html">Выход</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h1>Доска заказов</h1>
+      <form action="OrderBoard.html" method="POST">
+        <label>Автор</label>
+        <input type="text" name="author">
+        <label>Название</label>
+        <input type="text" name="name">
+        <input type="submit" value="Добавить">
+      </form>
+      <table>
+        <tr>
+          <th class="OrderBoardTd">Автор</th>
+          <th class="OrderBoardTd">Название</th>
+          <th class="OrderBoardTd"></th>
+        </tr>
+        <tr>
+          <td class="OrderBoardTd">Толстой Л.Н.</td>
+          <td class="OrderBoardTd">Война и мир</td>
+          <td class="OrderBoardTd"><a href="AddNewBook.html">Добавить книгу</a></td>
+        </tr>
+      </table>
+    </section>
+  </body>
+
+</html>
